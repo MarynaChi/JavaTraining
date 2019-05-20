@@ -25,7 +25,7 @@ public class DataTypesTester {
         // modulus
         c = (byte) (a % b);
         System.out.printf("%d %% %d = %d\n", a, b, c);
-       // c = a / 0; --> Arithmetical Exception
+        // c = a / 0; --> Arithmetical Exception
         a = 5;
         // unary minus
         b = (byte) (-a);
@@ -1195,7 +1195,7 @@ public class DataTypesTester {
         System.out.printf("%b || %b = %b\n", a, b, c);
         c = a ^ b; // logical XOR
         System.out.printf("%b ^ %b = %b\n", a, b, c);
-// logical NOT
+        // logical NOT
         System.out.printf("!%b --> %b\n", a, !a);
         System.out.println("\n***** Misc Operators *****");
         System.out.println("\nCondition Operator:");
